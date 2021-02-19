@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "AppleTrace"                         
-  spec.version          = "v1.0"                                     
+  spec.version          = "1.0"                                     
   spec.summary          = "AppleTrace for MonkeyDev"
   spec.description      = <<-DESC                                     
                           - AppleTrace for MonkeyDev
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.author           = { "everettjf" => "everettjf@live.com" }
   spec.social_media_url = "http://weibo.com/everettjf"
   spec.platform         = :ios, "8.0"
-  spec.source           = { :git => "https://github.com/zylcold/AppleTrace/new/master", :tag => spec.version }  
+  spec.source           = { :git => "https://github.com/zylcold/AppleTrace/new/master", :tag => spec.version.to_s }  
   spec.source_files     = [
     "appletrace/appletrace/src/**/*.{h,m,c,a}",
     "appletrace/appletrace/src/**/*.mm",
